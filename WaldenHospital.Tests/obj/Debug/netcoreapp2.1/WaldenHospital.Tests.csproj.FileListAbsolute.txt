@@ -1,0 +1,13 @@
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\WaldenHospital.Tests.deps.json
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\WaldenHospital.Tests.runtimeconfig.json
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\WaldenHospital.Tests.runtimeconfig.dev.json
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\WaldenHospital.Tests.dll
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\bin\Debug\netcoreapp2.1\WaldenHospital.Tests.pdb
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\obj\Debug\netcoreapp2.1\WaldenHospital.Tests.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\obj\Debug\netcoreapp2.1\WaldenHospital.Tests.AssemblyInfoInputs.cache
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\obj\Debug\netcoreapp2.1\WaldenHospital.Tests.AssemblyInfo.cs
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\obj\Debug\netcoreapp2.1\WaldenHospital.Tests.dll
+C:\Users\John\Documents\GitHub\WaldenHospital\WaldenHospital.Tests\obj\Debug\netcoreapp2.1\WaldenHospital.Tests.pdb

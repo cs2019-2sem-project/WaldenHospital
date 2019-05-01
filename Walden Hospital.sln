@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walden Hospital API", "Walden Hospital\Walden Hospital API.csproj", "{9C4D0FC4-81FC-43E1-B105-CE2DEC57567C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaldenHospital.API", "Walden Hospital\Walden Hospital API.csproj", "{9C4D0FC4-81FC-43E1-B105-CE2DEC57567C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaldenHospital.Tests", "WaldenHospital.Tests\WaldenHospital.Tests.csproj", "{1E656625-71E2-4E77-89CB-3B2FDFDC8F47}"
 EndProject

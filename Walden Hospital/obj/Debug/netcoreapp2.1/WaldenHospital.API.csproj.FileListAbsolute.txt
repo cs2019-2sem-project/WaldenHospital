@@ -1,0 +1,11 @@
+C:\Users\Matúš\WaldenHospital\Walden Hospital\bin\Debug\netcoreapp2.1\WaldenHospital.API.deps.json
+C:\Users\Matúš\WaldenHospital\Walden Hospital\bin\Debug\netcoreapp2.1\WaldenHospital.API.runtimeconfig.json
+C:\Users\Matúš\WaldenHospital\Walden Hospital\bin\Debug\netcoreapp2.1\WaldenHospital.API.runtimeconfig.dev.json
+C:\Users\Matúš\WaldenHospital\Walden Hospital\bin\Debug\netcoreapp2.1\WaldenHospital.API.dll
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.csprojAssemblyReference.cache
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.csproj.CoreCompileInputs.cache
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.RazorAssemblyInfo.cache
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.RazorAssemblyInfo.cs
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.AssemblyInfoInputs.cache
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.AssemblyInfo.cs
+C:\Users\Matúš\WaldenHospital\Walden Hospital\obj\Debug\netcoreapp2.1\WaldenHospital.API.RazorTargetAssemblyInfo.cache

@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid FocusVisualPrimaryBrush="{x:Null}" Opacity="1" RequestedTheme="Light">
+    <Grid Opacity="1" RequestedTheme="Light">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FFC9D6FF" Offset="0.288"/>
@@ -25,9 +25,9 @@
         <StackPanel HorizontalAlignment="Left" Height="525" VerticalAlignment="Top" Width="496" Margin="500                     ,250,0,0" Background="White">
             <TextBlock TextWrapping="Wrap" Text="USER LOGIN"  Margin="0,20,0,0" FontSize="36" FontFamily="Berlin Sans FB" HorizontalAlignment="Center"/>
             <Image Source="..\Assets\man-user.png" Height="86"/>
-            <TextBox Text="Email"  Margin="20,30,20,0"/>
+            <TextBlock Text="Email"  Margin="20,30,20,0"/>
             <TextBox TextWrapping="Wrap"    Foreground="White" Margin="20,0,20,0" Height="60" Background="#FFEBEBEB" BorderBrush="{x:Null}"/>
-            <TextBox Text="Password"  Margin="20,30,20,0"/>
+            <TextBlock Text="Password"  Margin="20,30,20,0"/>
             <TextBox TextWrapping="Wrap"    Foreground="White"  Margin="20,0,20,0" Height="60" Background="#FFEBEBEB" BorderBrush="{x:Null}" RenderTransformOrigin="1,0.5"/>
             <StackPanel Height="100" Margin="0,35,0,0" Background="#FFEBEBEB">
                 <Button Content="LOG IN" Background="#FF1DD2FF"  HorizontalAlignment="right"  Margin="0,0,20,-40" VerticalAlignment="Stretch" Height="60" BorderBrush="{x:Null}" Width="135"/>

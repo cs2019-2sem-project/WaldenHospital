@@ -7,5 +7,5 @@
         public float Cost { get; set; }
         public int Quantity { get; set; }
         public bool OverTheCounter { get; set; }
-}
+    }
 }

@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="WaldenHospitalClient.InventorySystem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WaldenHospitalClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox TextWrapping="Wrap" Text="Inventory System" Background="#FFEBEBEB" FontSize="36" Margin="0,0,10,934"/>
+        <Grid HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="1235" Margin="125,244,0,0">
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="ID" VerticalAlignment="Bottom" Margin="24,0,0,10"/>
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Margin="126,0,0,0"/>
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Cost" VerticalAlignment="Top" Margin="273,0,0,0"/>
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top" Margin="411,0,0,0"/>
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="OverTheCounter" VerticalAlignment="Top" Margin="543,0,0,0"/>
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Edit" VerticalAlignment="Top" Margin="1026,0,0,0"/>
+            <TextBox HorizontalAlignment="Left" FontWeight="Bold" TextWrapping="Wrap" Text="Delete" VerticalAlignment="Top" Margin="1146,0,0,0"/>
+        </Grid>
+        <ListView Background="AntiqueWhite" HorizontalAlignment="Left" Height="482" Margin="101,301,0,0" VerticalAlignment="Top" Width="1297">
+            <ListBox Height="70" Width="1285">
+                <Grid HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="1235">
+                    <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Margin="24,0,0,0"/>
+                    <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="Xyzal" VerticalAlignment="Top" Margin="126,0,0,0"/>
+                    <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="120DKK" VerticalAlignment="Top" Margin="273,0,0,0"/>
+                    <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="60" VerticalAlignment="Top" Margin="411,0,0,0"/>
+                    <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="YES" VerticalAlignment="Top" Margin="543,0,0,0"/>
+                    <Image  Source="..\Assets\pencil-edit-button.png" Margin="1015,0,140,0"/>
+                    <Image Source="..\Assets\clear.png" Margin="1140,0,16,0"/>
+                </Grid>
+            </ListBox>
+        </ListView>
+        <Button Content="ADD PRODUCT" Background="#FF1DD2FF"  HorizontalAlignment="right"  Margin="0,820,1264,120" VerticalAlignment="Stretch" Height="60" BorderBrush="{x:Null}" Width="135"/>
+
+    </Grid>
+</Page>

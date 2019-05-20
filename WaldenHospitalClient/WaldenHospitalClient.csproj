@@ -104,9 +104,6 @@
     <Compile Include="RegisterUser.xaml.cs">
       <DependentUpon>RegisterUser.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DoctorCreate.xaml.cs">
-      <DependentUpon>DoctorCreate.xaml</DependentUpon>
-    </Compile>
     <Compile Include="DoctorView.xaml.cs">
       <DependentUpon>DoctorView.xaml</DependentUpon>
     </Compile>
@@ -147,10 +144,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RegisterUser.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DoctorCreate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

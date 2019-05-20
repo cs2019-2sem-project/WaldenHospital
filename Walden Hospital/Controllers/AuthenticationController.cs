@@ -22,7 +22,6 @@ namespace Walden_Hospital.Controllers
     public class AuthenticationController : ControllerBase
     {
         //private IUserService _userService;
-       
         private IUserService _userService;
         private IMapper _mapper;
         private readonly AppSettings _appSettings;
@@ -64,16 +63,67 @@ namespace Walden_Hospital.Controllers
 
         // GET api/Authentication/logout
         [HttpGet("logout")]
-        public IActionResult Logout()
+        public IActionResult Logout(int id)
         {
-            return OK();
+            _userService.Delete(id);
+            return Ok();
         }
 
         // POST api/Authentication/register
         [HttpPost("register")]
-        public void Register([FromBody] string value)
+        public IActionResult Register([FromBody]AbstractUserModelDTO AUMDto)
         {
+            // map dto to entity
+            var user = _mapper.Map<AbstractUserModel>(AUMDto);
+
+            try
+            {
+                // save 
+                _userService.Create(user, AUMDto.Password);
+                return Ok();
+
+            }
+            catch (AppException ex)
+            {
+                // return error message if there was an exception
+                return BadRequest(new { message = ex.Message });
+            }
         }
-        
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var users = _userService.GetAll();
+            var userDtos = _mapper.Map<IList<AbstractUserModelDTO>>(users);
+            return Ok(userDtos);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var user = _userService.GetById(id);
+            var userDto = _mapper.Map<AbstractUserModelDTO>(user);
+            return Ok(userDto);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody]AbstractUserModelDTO AUMDto)
+        {
+            // map dto to entity and set id
+            var user = _mapper.Map<AbstractUserModel>(AUMDto);
+            user.ID = id;
+
+            try
+            {
+                // save 
+                _userService.Update(user, AUMDto.Password);
+                return Ok();
+            }
+            catch (AppException ex)
+            {
+                // return error message if there was an exception
+                return BadRequest(new { message = ex.Message });
+            }
+        }
     }
 }

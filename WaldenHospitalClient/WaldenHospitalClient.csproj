@@ -95,8 +95,14 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CreatePatient.xaml.cs">
-      <DependentUpon>CreatePatient.xaml</DependentUpon>
+    <Compile Include="CreatePacient.xaml.cs">
+      <DependentUpon>CreatePacient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InventorySystem.xaml.cs">
+      <DependentUpon>InventorySystem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUser.xaml.cs">
+      <DependentUpon>RegisterUser.xaml</DependentUpon>
     </Compile>
     <Compile Include="DoctorView.xaml.cs">
       <DependentUpon>DoctorView.xaml</DependentUpon>
@@ -113,6 +119,8 @@
     <None Include="WaldenHospitalClient_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\clear.png" />
+    <Content Include="Assets\pencil-edit-button.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -127,7 +135,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CreatePatient.xaml">
+    <Page Include="CreatePacient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InventorySystem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegisterUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

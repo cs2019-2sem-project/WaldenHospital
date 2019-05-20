@@ -80,7 +80,7 @@ namespace Walden_Hospital
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-			services.AddSwaggerGen(c =>
+			      services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info
                 {
@@ -114,7 +114,6 @@ namespace Walden_Hospital
 
             app.UseHttpsRedirection();
             app.UseMvc();
-			app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.DocumentTitle("API Explorer");

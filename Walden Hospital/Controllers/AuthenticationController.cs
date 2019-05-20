@@ -22,7 +22,6 @@ namespace Walden_Hospital.Controllers
     public class AuthenticationController : ControllerBase
     {
         //private IUserService _userService;
-
         private IUserService _userService;
         private IMapper _mapper;
         private readonly AppSettings _appSettings;
